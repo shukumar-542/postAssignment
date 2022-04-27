@@ -16,7 +16,7 @@ const Comment = () => {
       },[])
       return (
             <div>
-                  <h1>All Comment{commentId}</h1>
+                  
                   {
                         comment.map(com => <CommentDetails comment ={com}></CommentDetails>)
                   }
